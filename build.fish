@@ -1,1 +1,2 @@
-docker build -t docker keras:gpu
+#!/usr/bin/fish
+docker build -t keras:gpu docker
