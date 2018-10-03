@@ -10,4 +10,4 @@ EXPOSE 8888
 # for tensorboard
 EXPOSE 6006
 
-CMD ["/bin/bash", "-c", "jupyter notebook --allow-root --no-browser --ip=0.0.0.0 --NotebookApp.password=${PASSWD}"]
+CMD ["/bin/bash", "-c", "jupyter notebook --no-browser --ip=0.0.0.0 --NotebookApp.password=${PASSWD}"]
